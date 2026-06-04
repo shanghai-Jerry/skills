@@ -1,0 +1,53 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skills-most-common-used",
+  "description": "A curated collection of 32+ Agent Skills for Claude Code covering development workflows, content generation, research, design, and skill creation. Based on the OpenSkills standard.",
+  "owner": {
+    "name": "shanghai-Jerry",
+    "url": "https://github.com/shanghai-Jerry"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "description": "Core development workflow skills: planning, TDD, debugging, code review, branch management, and parallel agent dispatching. Based on obra/superpowers.",
+      "source": "./plugins/superpowers",
+      "category": "development",
+      "tags": ["development", "workflow", "testing", "code-review", "git", "debugging"]
+    },
+    {
+      "name": "content-generation",
+      "description": "Generate images, videos, podcasts, presentations, and data charts from text descriptions.",
+      "source": "./plugins/content-generation",
+      "category": "media",
+      "tags": ["media", "content", "images", "video", "audio", "presentations", "charts"]
+    },
+    {
+      "name": "research-analysis",
+      "description": "Deep web research, GitHub repository analysis, data analysis with DuckDB, and consulting-grade report generation.",
+      "source": "./plugins/research-analysis",
+      "category": "research",
+      "tags": ["research", "data", "analysis", "reports", "github"]
+    },
+    {
+      "name": "design-deploy",
+      "description": "Production-grade frontend design, web design compliance auditing, and Vercel deployment.",
+      "source": "./plugins/design-deploy",
+      "category": "design",
+      "tags": ["frontend", "design", "ui", "deployment", "vercel"]
+    },
+    {
+      "name": "skill-development",
+      "description": "Create, write, discover, and evaluate Agent Skills. Includes skill-creator with eval tooling, bootstrap for AI partner onboarding, and find-skills for marketplace discovery.",
+      "source": "./plugins/skill-development",
+      "category": "productivity",
+      "tags": ["skills", "meta", "development", "onboarding"]
+    },
+    {
+      "name": "extras",
+      "description": "Brainstorming for pre-implementation design, Mac development environment setup, and creative surprise experiences.",
+      "source": "./plugins/extras",
+      "category": "productivity",
+      "tags": ["creativity", "brainstorming", "setup"]
+    }
+  ]
+}

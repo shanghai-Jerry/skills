@@ -1,0 +1,14 @@
+{
+  "name": "superpowers",
+  "description": "Core development workflow skills: planning, TDD, debugging, code review, branch management, and parallel agent dispatching.",
+  "version": "1.0.0",
+  "skills": "./skills/",
+  "author": {
+    "name": "shanghai-Jerry",
+    "url": "https://github.com/shanghai-Jerry"
+  },
+  "homepage": "https://github.com/shanghai-Jerry/skills-most-common-used",
+  "repository": "https://github.com/shanghai-Jerry/skills-most-common-used",
+  "license": "MIT",
+  "keywords": ["development", "workflow", "testing", "tdd", "debugging", "code-review", "git", "worktrees", "planning"]
+}

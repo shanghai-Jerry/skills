@@ -1,0 +1,14 @@
+{
+  "name": "skill-development",
+  "description": "Create, write, discover, and evaluate Agent Skills. Includes skill-creator with eval tooling, bootstrap for AI partner onboarding, and find-skills for marketplace discovery.",
+  "version": "1.0.0",
+  "skills": "./skills/",
+  "author": {
+    "name": "shanghai-Jerry",
+    "url": "https://github.com/shanghai-Jerry"
+  },
+  "homepage": "https://github.com/shanghai-Jerry/skills-most-common-used",
+  "repository": "https://github.com/shanghai-Jerry/skills-most-common-used",
+  "license": "MIT",
+  "keywords": ["skills", "skill-creator", "onboarding", "bootstrap", "meta"]
+}
