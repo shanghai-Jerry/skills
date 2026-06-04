@@ -1,0 +1,14 @@
+{
+  "name": "content-generation",
+  "description": "Generate images, videos, podcasts, presentations, and data charts from text descriptions.",
+  "version": "1.0.0",
+  "skills": "./skills/",
+  "author": {
+    "name": "shanghai-Jerry",
+    "url": "https://github.com/shanghai-Jerry"
+  },
+  "homepage": "https://github.com/shanghai-Jerry/skills-most-common-used",
+  "repository": "https://github.com/shanghai-Jerry/skills-most-common-used",
+  "license": "MIT",
+  "keywords": ["image-generation", "video-generation", "podcast", "ppt", "charts", "media", "content"]
+}

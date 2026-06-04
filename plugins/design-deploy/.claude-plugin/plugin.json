@@ -1,0 +1,14 @@
+{
+  "name": "design-deploy",
+  "description": "Production-grade frontend design, web design compliance auditing, and Vercel deployment.",
+  "version": "1.0.0",
+  "skills": "./skills/",
+  "author": {
+    "name": "shanghai-Jerry",
+    "url": "https://github.com/shanghai-Jerry"
+  },
+  "homepage": "https://github.com/shanghai-Jerry/skills-most-common-used",
+  "repository": "https://github.com/shanghai-Jerry/skills-most-common-used",
+  "license": "MIT",
+  "keywords": ["frontend", "design", "ui", "deployment", "vercel", "web-design"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "extras",
+  "description": "Brainstorming for pre-implementation design, Mac development environment setup, and creative surprise experiences.",
+  "version": "1.0.0",
+  "skills": "./skills/",
+  "author": {
+    "name": "shanghai-Jerry",
+    "url": "https://github.com/shanghai-Jerry"
+  },
+  "homepage": "https://github.com/shanghai-Jerry/skills-most-common-used",
+  "repository": "https://github.com/shanghai-Jerry/skills-most-common-used",
+  "license": "MIT",
+  "keywords": ["brainstorming", "mac-setup", "creativity", "surprise"]
+}
