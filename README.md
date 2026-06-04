@@ -1,4 +1,4 @@
-# skills-most-common-used
+# skills
 
 A curated Claude Code marketplace of 32+ Agent Skills for AI-assisted development.
 
