@@ -35,6 +35,9 @@ Modern CLI tools and utilities for daily development workflow, plus the classic 
 |------|---------|-------------|
 | opencode | `brew install opencode` | AI-powered CLI coding assistant with Skills/MCP/plugin support, multi-model |
 | claude code | `npm install -g @anthropic-ai/claude-code` | Anthropic's official AI coding assistant in the terminal |
+| claude-permission-popup | `npx claude-permission-popup install` | Replaces Claude Code's terminal permission prompt with a centered native macOS dialog, so you can approve or deny without switching back to the terminal |
+
+> **Recommendation:** If you install Claude Code, it is highly recommended to also install `claude-permission-popup`. It replaces the terminal-based permission prompts with a native macOS dialog, making the workflow much smoother. Requires macOS and Node 18+.
 
 ### Utilities
 
