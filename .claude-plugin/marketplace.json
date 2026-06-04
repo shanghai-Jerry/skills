@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "skills-most-common-used",
+  "name": "skills",
   "description": "A curated collection of 32+ Agent Skills for Claude Code covering development workflows, content generation, research, design, and skill creation. Based on the OpenSkills standard.",
   "owner": {
     "name": "shanghai-Jerry",

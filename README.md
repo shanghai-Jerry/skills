@@ -9,10 +9,10 @@ Add this marketplace to your Claude Code settings (`~/.claude/settings.json`):
 ```json
 {
   "extraKnownMarketplaces": {
-    "skills-most-common-used": {
+    "skills": {
       "source": {
         "source": "git",
-        "url": "https://github.com/shanghai-Jerry/skills-most-common-used.git"
+        "url": "https://github.com/shanghai-Jerry/skills.git"
       }
     }
   }
@@ -24,12 +24,12 @@ Then enable individual plugins via the Claude Code marketplace UI or by adding t
 ```json
 {
   "enabledPlugins": {
-    "superpowers@skills-most-common-used": true,
-    "content-generation@skills-most-common-used": true,
-    "research-analysis@skills-most-common-used": true,
-    "design-deploy@skills-most-common-used": true,
-    "skill-development@skills-most-common-used": true,
-    "extras@skills-most-common-used": true
+    "superpowers@skills": true,
+    "content-generation@skills": true,
+    "research-analysis@skills": true,
+    "design-deploy@skills": true,
+    "skill-development@skills": true,
+    "extras@skills": true
   }
 }
 ```
