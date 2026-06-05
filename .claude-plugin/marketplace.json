@@ -37,7 +37,7 @@
     },
     {
       "name": "skill-development",
-      "description": "Create, write, discover, and evaluate Agent Skills. Includes skill-creator with eval tooling, bootstrap for AI partner onboarding, and find-skills for marketplace discovery.",
+      "description": "Create, write, discover, evaluate, and optimize Agent Skills. Includes skill-creator with eval tooling, bootstrap for AI partner onboarding, find-skills for marketplace discovery, and skill-optimizer for performance improvements.",
       "source": "./plugins/skill-development",
       "category": "productivity",
       "tags": ["skills", "meta", "development", "onboarding"]
