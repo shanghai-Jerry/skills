@@ -44,10 +44,24 @@
     },
     {
       "name": "extras",
-      "description": "Brainstorming for pre-implementation design, Mac development environment setup, and creative surprise experiences.",
+      "description": "Brainstorming for pre-implementation design and creative surprise experiences.",
       "source": "./plugins/extras",
       "category": "productivity",
-      "tags": ["creativity", "brainstorming", "setup"]
+      "tags": ["creativity", "brainstorming"]
+    },
+    {
+      "name": "mac-setup",
+      "description": "Configure a new Mac development environment from scratch. Covers Homebrew, Git, Zsh/Oh My Zsh, iTerm2, tmux, vim, ssh, and modern CLI tools.",
+      "source": "./plugins/mac-setup",
+      "category": "productivity",
+      "tags": ["mac", "setup", "homebrew", "git", "zsh", "iterm2", "tmux", "cli"]
+    },
+    {
+      "name": "claude-code-security-config",
+      "description": "Configure Claude Code security to prevent sensitive file leaks and workspace pollution. Sets up deny rules for credentials, .claudeignore, sandbox mode, security instructions in CLAUDE.md, and auto-cleanup hooks.",
+      "source": "./plugins/claude-code-security-config",
+      "category": "productivity",
+      "tags": ["security", "claudeignore", "sandbox", "deny-rules", "hooks"]
     }
   ]
 }

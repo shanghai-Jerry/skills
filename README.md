@@ -29,7 +29,9 @@ Then enable individual plugins via the Claude Code marketplace UI or by adding t
     "research-analysis@skills": true,
     "design-deploy@skills": true,
     "skill-development@skills": true,
-    "extras@skills": true
+    "extras@skills": true,
+    "mac-setup@skills": true,
+    "claude-code-security-config@skills": true
   }
 }
 ```
@@ -43,7 +45,9 @@ Then enable individual plugins via the Claude Code marketplace UI or by adding t
 | **research-analysis** | 5 | Web research, GitHub analysis, data analysis, reports |
 | **design-deploy** | 3 | Frontend design, web audit, Vercel deployment |
 | **skill-development** | 4 | Create/evaluate skills, onboarding, discovery |
-| **extras** | 3 | Brainstorming, Mac setup, creative surprises |
+| **extras** | 2 | Brainstorming, creative surprises |
+| **mac-setup** | 1 | Mac development environment setup |
+| **claude-code-security-config** | 1 | Claude Code security hardening |
 
 ### superpowers
 
@@ -105,7 +109,18 @@ Miscellaneous skills:
 
 - **brainstorming** - Pre-implementation design
 - **surprise-me** - Creative showcase
-- **mac-setup** - Mac development environment setup
+
+### mac-setup
+
+Mac development environment setup:
+
+- **mac-setup** - Configure a new Mac from scratch: Homebrew, Git, Zsh, iTerm2, tmux, vim, ssh, and modern CLI tools
+
+### claude-code-security-config
+
+Claude Code security hardening:
+
+- **claude-code-security-config** - Prevent sensitive file leaks, configure .claudeignore, sandbox mode, deny rules, and auto-cleanup hooks
 
 ## Credits
 
