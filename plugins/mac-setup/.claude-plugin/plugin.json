@@ -1,0 +1,14 @@
+{
+  "name": "mac-setup",
+  "description": "Configure a new Mac development environment from scratch. Covers Homebrew, Git, Zsh/Oh My Zsh, iTerm2, tmux, vim, ssh, and modern CLI tools.",
+  "version": "1.0.0",
+  "skills": "./skills/",
+  "author": {
+    "name": "shanghai-Jerry",
+    "url": "https://github.com/shanghai-Jerry"
+  },
+  "homepage": "https://github.com/shanghai-Jerry/skills",
+  "repository": "https://github.com/shanghai-Jerry/skills",
+  "license": "MIT",
+  "keywords": ["mac", "setup", "homebrew", "git", "zsh", "iterm2", "tmux", "cli", "development-environment"]
+}
