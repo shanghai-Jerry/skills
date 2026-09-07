@@ -1,0 +1,76 @@
+{
+  "name": "gradient-modern",
+  "description": "Bold mesh gradients, fluid color transitions, contemporary typography, vibrant yet sophisticated",
+  "best_for": "Startups, creative agencies, brand launches",
+  "background": {
+    "type": "gradient",
+    "colors": ["#7c3aed", "#ec4899", "#f97316"],
+    "direction": "mesh",
+    "api_prompt": "Modern gradient background, purple (#7c3aed) to pink (#ec4899) to orange (#f97316), smooth mesh gradient, abstract fluid colors, no text, no people, no objects, 16:9"
+  },
+  "text": {
+    "title": {
+      "size": 48,
+      "weight": "bold",
+      "color": "#ffffff",
+      "shadow": true,
+      "shadow_color": "rgba(0,0,0,0.4)",
+      "shadow_offset": [2, 3],
+      "shadow_blur": 10
+    },
+    "subtitle": {
+      "size": 24,
+      "weight": "normal",
+      "color": "rgba(255,255,255,0.9)",
+      "shadow": true,
+      "shadow_color": "rgba(0,0,0,0.2)",
+      "shadow_offset": [1, 1],
+      "shadow_blur": 4
+    },
+    "body": {
+      "size": 18,
+      "weight": "normal",
+      "color": "#ffffff",
+      "line_height": 1.6,
+      "shadow": false,
+      "bullet_color": "#fbbf24"
+    }
+  },
+  "card": {
+    "enabled": true,
+    "bg": [255, 255, 255, 25],
+    "border_color": [255, 255, 255, 40],
+    "border_width": 1,
+    "radius": 20,
+    "padding": 36,
+    "blur_radius": 6
+  },
+  "layouts": {
+    "title_center": {
+      "title":    { "x": 0.10, "y": 0.28, "w": 0.80, "h": 0.18, "align": "center" },
+      "subtitle": { "x": 0.15, "y": 0.50, "w": 0.70, "h": 0.10, "align": "center" }
+    },
+    "title_left": {
+      "title":    { "x": 0.08, "y": 0.32, "w": 0.84, "h": 0.18, "align": "left" },
+      "subtitle": { "x": 0.08, "y": 0.55, "w": 0.60, "h": 0.10, "align": "left" }
+    },
+    "content": {
+      "title": { "x": 0.08, "y": 0.06, "w": 0.84, "h": 0.10, "align": "left" },
+      "body":  { "x": 0.08, "y": 0.22, "w": 0.84, "h": 0.70, "align": "left", "bullet": true }
+    },
+    "two_column": {
+      "title": { "x": 0.08, "y": 0.06, "w": 0.84, "h": 0.10, "align": "left" },
+      "left":  { "x": 0.08, "y": 0.22, "w": 0.40, "h": 0.70, "align": "left", "bullet": true },
+      "right": { "x": 0.52, "y": 0.22, "w": 0.40, "h": 0.70, "align": "left", "bullet": true }
+    },
+    "section_divider": {
+      "title":    { "x": 0.10, "y": 0.36, "w": 0.80, "h": 0.18, "align": "center" },
+      "subtitle": { "x": 0.15, "y": 0.58, "w": 0.70, "h": 0.10, "align": "center" }
+    },
+    "image_text": {
+      "title": { "x": 0.08, "y": 0.06, "w": 0.84, "h": 0.10, "align": "left" },
+      "image": { "x": 0.08, "y": 0.22, "w": 0.40, "h": 0.70 },
+      "text":  { "x": 0.52, "y": 0.22, "w": 0.40, "h": 0.70, "align": "left", "bullet": true }
+    }
+  }
+}

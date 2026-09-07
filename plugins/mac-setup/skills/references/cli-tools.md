@@ -51,6 +51,7 @@ Modern CLI tools and utilities for daily development workflow, plus the classic 
 | `tree` | `brew install tree` | Directory tree display |
 | `watchexec` | `brew install watchexec` | Run commands on file changes |
 | `unison` | `brew install unison` | Bidirectional file/folder synchronization |
+| `surge` | `brew install SurgeDM/tap/surge` | Blazing fast TUI download manager with 32-parallel-connection support |
 
 ## Quick Install All Essentials
 
@@ -63,6 +64,79 @@ brew install lazygit gh
 
 # Utilities
 brew install jq htop btop tree ncdu tldr
+
+# Download manager
+brew install SurgeDM/tap/surge
+```
+
+## Download Managers
+
+### Surge — Fast Parallel Download Manager
+
+[Surge](https://github.com/surgedm/surge) is a blazing fast TUI download manager built in Go. It splits files into chunks and downloads them across up to 32 parallel connections, significantly outperforming traditional single-connection tools.
+
+**Key Features:**
+- Multi-connection parallel downloads with automatic failover
+- Daemon architecture for background/headless environments
+- Streaming mode for sequential media downloads
+- Browser extension (Chrome, Edge, Brave, Firefox)
+- Customizable TUI with themes
+
+#### Installation
+
+```bash
+# macOS / Linux (Homebrew) — recommended
+brew install SurgeDM/tap/surge
+
+# Arch Linux (AUR)
+yay -S surge
+
+# Nix / NixOS
+nix run github:SurgeDM/Surge
+
+# Windows (winget)
+winget install surge-downloader.surge
+
+# Windows (scoop)
+scoop install surge
+
+# Go install (requires Go 1.25+)
+go install github.com/SurgeDM/Surge@latest
+
+# Docker Compose
+git clone https://github.com/SurgeDM/Surge.git
+cd Surge
+docker compose up -d
+```
+
+#### Basic Usage
+
+```bash
+# Download a file
+surge https://example.com/file.zip
+
+# Download with custom output name
+surge -o output.zip https://example.com/file.zip
+
+# Start the TUI (interactive mode)
+surge
+
+# Start headless server (background daemon)
+surge serve
+
+# Get auth token for browser extension
+surge token
+```
+
+#### Browser Extension
+
+Install the Surge browser extension to intercept downloads automatically:
+- [Chrome / Edge / Brave](https://chromewebstore.google.com/detail/surge/jmdkdhhmaijokoealoamhbmcehlkdnkn)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/surge-downloader/)
+
+After installing the extension, connect it with:
+```bash
+surge token
 ```
 
 ## Tool Configuration

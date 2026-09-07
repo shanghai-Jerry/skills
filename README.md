@@ -44,7 +44,7 @@ Then enable individual plugins via the Claude Code marketplace UI or by adding t
 | **content-generation** | 5 | Images, video, podcasts, presentations, charts |
 | **research-analysis** | 5 | Web research, GitHub analysis, data analysis, reports |
 | **design-deploy** | 3 | Frontend design, web audit, Vercel deployment |
-| **skill-development** | 4 | Create/evaluate skills, onboarding, discovery |
+| **skill-development** | 5 | Create/evaluate/optimize skills, onboarding, discovery |
 | **extras** | 2 | Brainstorming, creative surprises |
 | **mac-setup** | 1 | Mac development environment setup |
 | **claude-code-security-config** | 1 | Claude Code security hardening |
@@ -102,6 +102,7 @@ Tools for creating and managing skills:
 - **writing-skills** - Write effective skills
 - **find-skills** - Discover installable skills
 - **bootstrap** - Onboard AI partner identity
+- **skill-optimizer** - Systematic workflow to optimize existing skills
 
 ### extras
 

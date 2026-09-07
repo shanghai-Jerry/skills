@@ -1,0 +1,73 @@
+{
+  "name": "dark-premium",
+  "description": "Rich black backgrounds, luminous accent colors, subtle glow effects, luxury aesthetic",
+  "best_for": "Premium products, executive presentations, high-end brands",
+  "background": {
+    "type": "gradient",
+    "colors": ["#0a0a0a", "#1a1a2e"],
+    "direction": "vertical",
+    "api_prompt": "Dark premium background, deep black (#0a0a0a) to dark navy (#1a1a2e), subtle ambient glow, cinematic lighting, luxury tech aesthetic, no text, no people, no objects, 16:9"
+  },
+  "text": {
+    "title": {
+      "size": 44,
+      "weight": "bold",
+      "color": "#ffffff",
+      "shadow": true,
+      "shadow_color": "rgba(0,212,255,0.3)",
+      "shadow_offset": [0, 0],
+      "shadow_blur": 12
+    },
+    "subtitle": {
+      "size": 24,
+      "weight": "normal",
+      "color": "rgba(255,255,255,0.7)",
+      "shadow": false
+    },
+    "body": {
+      "size": 18,
+      "weight": "normal",
+      "color": "rgba(255,255,255,0.85)",
+      "line_height": 1.6,
+      "shadow": false,
+      "bullet_color": "#00d4ff"
+    }
+  },
+  "card": {
+    "enabled": false,
+    "bg": [20, 20, 30, 200],
+    "border_color": [0, 212, 255, 80],
+    "border_width": 1,
+    "radius": 12,
+    "padding": 32,
+    "blur_radius": 0
+  },
+  "layouts": {
+    "title_center": {
+      "title":    { "x": 0.10, "y": 0.30, "w": 0.80, "h": 0.15, "align": "center" },
+      "subtitle": { "x": 0.15, "y": 0.50, "w": 0.70, "h": 0.10, "align": "center" }
+    },
+    "title_left": {
+      "title":    { "x": 0.08, "y": 0.35, "w": 0.84, "h": 0.15, "align": "left" },
+      "subtitle": { "x": 0.08, "y": 0.55, "w": 0.60, "h": 0.10, "align": "left" }
+    },
+    "content": {
+      "title": { "x": 0.08, "y": 0.06, "w": 0.84, "h": 0.10, "align": "left" },
+      "body":  { "x": 0.08, "y": 0.22, "w": 0.84, "h": 0.70, "align": "left", "bullet": true }
+    },
+    "two_column": {
+      "title": { "x": 0.08, "y": 0.06, "w": 0.84, "h": 0.10, "align": "left" },
+      "left":  { "x": 0.08, "y": 0.22, "w": 0.40, "h": 0.70, "align": "left", "bullet": true },
+      "right": { "x": 0.52, "y": 0.22, "w": 0.40, "h": 0.70, "align": "left", "bullet": true }
+    },
+    "section_divider": {
+      "title":    { "x": 0.10, "y": 0.38, "w": 0.80, "h": 0.15, "align": "center" },
+      "subtitle": { "x": 0.15, "y": 0.56, "w": 0.70, "h": 0.10, "align": "center" }
+    },
+    "image_text": {
+      "title": { "x": 0.08, "y": 0.06, "w": 0.84, "h": 0.10, "align": "left" },
+      "image": { "x": 0.08, "y": 0.22, "w": 0.40, "h": 0.70 },
+      "text":  { "x": 0.52, "y": 0.22, "w": 0.40, "h": 0.70, "align": "left", "bullet": true }
+    }
+  }
+}
