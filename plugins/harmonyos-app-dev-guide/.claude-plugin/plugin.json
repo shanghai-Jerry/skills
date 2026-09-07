@@ -1,0 +1,14 @@
+{
+  "name": "harmonyos-app-dev-guide",
+  "description": "HarmonyOS native application development guide. Covers project structure, configuration files, ArkTS coding patterns, dark mode adaptation, icon system, UX design specifications, and app store compliance checklist.",
+  "version": "1.0.0",
+  "skills": "./skills/",
+  "author": {
+    "name": "shanghai-Jerry",
+    "url": "https://github.com/shanghai-Jerry"
+  },
+  "homepage": "https://github.com/shanghai-Jerry/skills",
+  "repository": "https://github.com/shanghai-Jerry/skills",
+  "license": "MIT",
+  "keywords": ["harmonyos", "arkts", "mobile-development", "huawei", "app-development", "dark-mode", "ux-design"]
+}
