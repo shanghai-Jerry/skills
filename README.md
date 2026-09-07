@@ -1,6 +1,6 @@
 # skills
 
-A curated Claude Code marketplace of 32+ Agent Skills for AI-assisted development.
+A curated Claude Code marketplace of 33+ Agent Skills for AI-assisted development.
 
 ## Installation
 
@@ -31,7 +31,8 @@ Then enable individual plugins via the Claude Code marketplace UI or by adding t
     "skill-development@skills": true,
     "extras@skills": true,
     "mac-setup@skills": true,
-    "claude-code-security-config@skills": true
+    "claude-code-security-config@skills": true,
+    "harmonyos-app-dev-guide@skills": true
   }
 }
 ```
@@ -48,6 +49,7 @@ Then enable individual plugins via the Claude Code marketplace UI or by adding t
 | **extras** | 2 | Brainstorming, creative surprises |
 | **mac-setup** | 1 | Mac development environment setup |
 | **claude-code-security-config** | 1 | Claude Code security hardening |
+| **harmonyos-app-dev-guide** | 1 | HarmonyOS native app development guide |
 
 ### superpowers
 
@@ -123,8 +125,14 @@ Claude Code security hardening:
 
 - **claude-code-security-config** - Prevent sensitive file leaks, configure .claudeignore, sandbox mode, deny rules, and auto-cleanup hooks
 
+### harmonyos-app-dev-guide
+
+HarmonyOS native application development:
+
+- **harmonyos-app-dev-guide** - Complete guide for building HarmonyOS apps: project structure, configuration files, ArkTS coding patterns, state management, dark mode adaptation, icon system, UX design specs, and app store compliance
+
 ## Credits
 
 - 14 skills from [obra/superpowers](https://github.com/obra/superpowers)
-- 18 original skills by shanghai-Jerry
+- 19 original skills by shanghai-Jerry
 - MIT License
